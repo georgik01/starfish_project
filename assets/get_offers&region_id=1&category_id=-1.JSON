@@ -1,0 +1,6 @@
+{
+	offers:[
+		{name:"Nothing", description:"All you'll ever need", id:0, url_image:"", price:0, pricecoupon:0},
+		{name:"Everything", description:"Too much", id:1, url_image:"", price:108, pricecoupon:8}
+	]
+}

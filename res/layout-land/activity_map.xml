@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".MapActivity" android:baselineAligned="false">
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+      <Spinner
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:id="@+id/country_spinner" android:layout_weight="1"/>
+      <Spinner
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:id="@+id/region_spinner" android:layout_weight="1"/>
+      <view android:layout_width="0dp"
+            android:layout_height="match_parent"
+            class="com.example.starfishapp.MultiSelectionSpinner" android:id="@+id/category_spinner" android:layout_weight="3"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+      <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:id="@+id/map"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:name="com.google.android.gms.maps.SupportMapFragment" android:layout_weight="1"/>
+      <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="wrap_content"
+          android:layout_height="fill_parent">
+        <RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/radio_group"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Clear" android:id="@+id/button_clear"/>
+      </LinearLayout>
+    </LinearLayout>
+  </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="buy_button">Купити</string>
+    <string name="offer_imagedescription">Картинка</string>
+    <string name="prompt_category">Категорія</string>
+    <string name="prompt_city">Місто</string>
+    <string name="prompt_country">Країна</string>
+    <string name="map_button_text">Мапа</string>
+
+</resources>

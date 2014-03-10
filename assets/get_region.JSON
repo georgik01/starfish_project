@@ -1,0 +1,7 @@
+{
+	regions:[
+	{name:"Kiyv", id:1, country_id:2},
+	{name:"Poltava", id:3, country_id:2},
+	{name:"Moscow", id:2, country_id:1},
+	]
+}

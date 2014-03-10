@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/background">
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:background="#ffffff">
+
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dip">
+            <!--  Email Label -->
+            <TextView android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:textColor="#372c24"
+                      android:text="Ваш логин"/>
+            <EditText android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="5dip"
+                      android:layout_marginBottom="5dip"
+                      android:singleLine="true"/>
+            <!--  Password Label -->
+            <TextView android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:textColor="#372c24"
+                      android:text="Пароль"/>
+            <EditText android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="5dip"
+                      android:layout_marginBottom="5dip"
+                      android:singleLine="true"
+                      android:password="true"/>
+            <!-- Login button -->
+            <Button
+                    android:id="@+id/btnEnter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dip"
+                    android:background="@drawable/button_enter"
+                    style="@style/ButtonText_1"
+                    android:text="Войти"
+                    />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

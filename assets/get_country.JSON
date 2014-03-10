@@ -1,0 +1,8 @@
+{
+	countries:[
+	{title:"Russia", id:1},
+	{title: "Ukraine", id:2},
+	{title: "Moldova", id:3},
+	{title: "Helvetica", id:4}
+	]
+}

@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="buy_button">Купить</string>
+    <string name="prompt_category">Категория</string>
+    <string name="prompt_city">Город</string>
+    <string name="prompt_country">Страна</string>
+    <string name="map_button_text">Карта</string>
+
+</resources>
